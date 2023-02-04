@@ -59,8 +59,8 @@ body{
     font-size: 1em;
     font-weight: 900;
     margin-top: 10px;
-    padding:25 30px;
-    border-radius: 4px;
-    width: 10%;
+    padding: 10px 20px;
+    border-radius: 2px;
+    width: auto;
     background-color: #f1c40f;
   }
