@@ -64,3 +64,20 @@ body{
     width: auto;
     background-color: #f1c40f;
   }
+
+  .sub-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-container .icon{
+    padding-top: 50px;
+  }
+  .sub-container > div {
+    background-color: #f1f1f1;
+    
+  }
+
+  .content > p {
+    text-align: center;
+    
+  }
