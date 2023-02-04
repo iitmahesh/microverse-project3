@@ -65,19 +65,47 @@ body{
     background-color: #f1c40f;
   }
 
-  .sub-container{
-    display: flex;
-    flex-direction: column;
-  }
+
   .sub-container .icon{
-    padding-top: 50px;
+    position:absolute;
+    display: inline-block;
+    left: 100px;
+    padding-left: 100px;
+    padding-top:10px;
+
+    font-weight: 200;
+ font-size:3em;
+ color: #fcac01;
+ font-style: normal;
+ -webkit-font-smoothing: antialiased;
+ display: inline-block;
+ font-style: normal;
+ font-variant: normal;
+ text-rendering: auto;
+ line-height: 2;
+ 
   }
   .sub-container > div {
-    background-color: #f1f1f1;
+    padding-bottom: 50px;;
     
   }
-
+  .sub-container.content{
+    position:absolute;
+    display: inline-block;
+    right: 50px;
+    margin: 0;
+    padding: 0; 
+    
+  }
+  .content{
+    text-align: left;
+  }
   .content > p {
     text-align: center;
-    
+    padding-left:50px;
+  }
+
+  #video{
+    margin: auto;
+    padding-left: 350px;
   }
